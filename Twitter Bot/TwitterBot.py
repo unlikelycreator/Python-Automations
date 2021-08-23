@@ -65,7 +65,7 @@ class TwitterBot:
     #canvas1.create_window(200, 180, window=button1)
    # root.mainloop()
 
-hritik = TwitterBot('iamhritikpawar', 'pawar2700')
+hritik = TwitterBot('username', 'password')
 hritik.login()
 hritik.like_tweet('python')
 
